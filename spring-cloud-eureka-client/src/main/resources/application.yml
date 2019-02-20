@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    instance-id: spring-cloud-eureka-client-9001
+  client:
+    service-url:
+      defaultZone: http://peer1:1111/eureka/
+spring:
+  application:
+    name: eureka_client_service
+server:
+  port: 9001

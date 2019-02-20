@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-customer-region-zone-ribbon-10001" />
+        <module name="spring-cloud-customer-region-zone-ribbon-10002" />
+        <module name="spring-cloud-erueka-server-8001" />
+        <module name="spring-cloud-erueka-server-8002" />
+        <module name="spring-cloud-erueka-server-8003" />
+        <module name="spring-cloud-erueka-server-region-zone-8001" />
+        <module name="spring-cloud-erueka-server-region-zone-8002" />
+        <module name="spring-cloud-erueka-server-region-zone-8003" />
+        <module name="spring-cloud-erueka-server-region-zone-8004" />
+        <module name="spring-cloud-eureka-client-region-zone-01" />
+        <module name="spring-cloud-eureka-client-region-zone-02" />
+        <module name="spring-cloud-eureka-client-service01" />
+        <module name="spring-cloud-eureka-client-service02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-customer-region-zone-ribbon-10001" target="1.8" />
+      <module name="spring-cloud-customer-region-zone-ribbon-10002" target="1.8" />
+      <module name="spring-cloud-erueka-server-8001" target="1.8" />
+      <module name="spring-cloud-erueka-server-8002" target="1.8" />
+      <module name="spring-cloud-erueka-server-8003" target="1.8" />
+      <module name="spring-cloud-erueka-server-region-zone-8001" target="1.8" />
+      <module name="spring-cloud-erueka-server-region-zone-8002" target="1.8" />
+      <module name="spring-cloud-erueka-server-region-zone-8003" target="1.8" />
+      <module name="spring-cloud-erueka-server-region-zone-8004" target="1.8" />
+      <module name="spring-cloud-eureka-client-region-zone-01" target="1.8" />
+      <module name="spring-cloud-eureka-client-region-zone-02" target="1.8" />
+      <module name="spring-cloud-eureka-client-service01" target="1.8" />
+      <module name="spring-cloud-eureka-client-service02" target="1.8" />
+      <module name="spring-cloud-learn" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-customer-region-zone-ribbon-10001" options="-parameters" />
+      <module name="spring-cloud-customer-region-zone-ribbon-10002" options="-parameters" />
+      <module name="spring-cloud-erueka-server-8001" options="-parameters" />
+      <module name="spring-cloud-erueka-server-8002" options="-parameters" />
+      <module name="spring-cloud-erueka-server-8003" options="-parameters" />
+      <module name="spring-cloud-erueka-server-region-zone-8001" options="-parameters" />
+      <module name="spring-cloud-erueka-server-region-zone-8002" options="-parameters" />
+      <module name="spring-cloud-erueka-server-region-zone-8003" options="-parameters" />
+      <module name="spring-cloud-erueka-server-region-zone-8004" options="-parameters" />
+      <module name="spring-cloud-eureka-client-region-zone-01" options="-parameters" />
+      <module name="spring-cloud-eureka-client-region-zone-02" options="-parameters" />
+      <module name="spring-cloud-eureka-client-service01" options="-parameters" />
+      <module name="spring-cloud-eureka-client-service02" options="-parameters" />
+      <module name="spring-cloud-learn" options="-parameters" />
+    </option>
+  </component>
+</project>

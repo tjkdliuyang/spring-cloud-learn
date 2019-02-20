@@ -1,0 +1,36 @@
+#server端口号
+server:
+  port: 8002
+#配置的应用名称
+spring:
+  application:
+    name: eureka-server
+#EurekaInstanceConfigBean 中是Server的配置项
+#一般不用配置默认是主机号
+eureka:
+  instance:
+    hostname: huabei
+    #健康检测 其实可以不配置因为在
+    health-check-url: /actuator/health
+    #状态
+    status-page-url:  /actuator/info
+  client:
+    #是否在注册中心注册自己
+    register-with-eureka: false
+    #检索服务用的 一般注册中心不需要
+    fetch-registry: false
+    #是否偏好处于相同Zone的Eureka客户端 默认是True
+    prefer-same-zone-eureka : true
+    region: huabei
+    availability-zones:
+      huabei: tianjin,beijing,shanghai
+    #注册中心的地址
+    service-url:
+      tianjin: http://tianjin:8002/eureka
+      beijing: http://beijing:8001/eureka
+      shanghai: http://shanghai:8003/eureka
+      #defaultZone: http://peer2:1112/eureka
+
+
+
+

@@ -1,0 +1,5 @@
+eureka注册中心集群实例
+    spring-cloud-erueka-server-8001
+    spring-cloud-erueka-server-8002
+    spring-cloud-erueka-server-8003
+    为注册中心集群。其实大家可以多个 我觉得如果30个应用。我建议至少5个

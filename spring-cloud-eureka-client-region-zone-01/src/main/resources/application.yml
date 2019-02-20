@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka_client_service
+server:
+  port: 9001
+eureka:
+  instance:
+    instance-id: spring-cloud-eureka-client-9001
+    metadata-map:
+      zone: beijing
+  client:
+    service-url:
+      beijing: http://beijing:8001/eureka/
+      tianjin: http://tianjin:8002/eureka/
+      shanghai: http://shanghai:8003/eureka/
+    region: huabei
+    availability-zones:
+      huabei: beijing,tianjin,shanghai
+

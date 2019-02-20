@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: order
+server:
+  port: 10002
+eureka:
+  instance:
+    instance-id: spring-cloud-eureka-customer-order-10002
+    metadata-map:
+      zone: shanghai
+  client:
+    service-url:
+      shanghai: http://shanghai:8003/eureka/
+      nanjing: http://nanjing:8004/eureka/
+      beijing: http://beijing:8001/eureka/
+    region: huazhong
+    availability-zones:
+      huazhong: shanghai,nanjing,beijing
+
+

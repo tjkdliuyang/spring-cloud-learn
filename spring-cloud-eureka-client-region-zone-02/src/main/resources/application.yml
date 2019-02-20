@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: eureka_client_service
+server:
+  port: 9002
+eureka:
+  instance:
+    instance-id: spring-cloud-eureka-client-9002
+    metadata-map:
+      zone: shanghai
+  client:
+    service-url:
+      shanghai: http://shanghai:8003/eureka/
+      nanjing: http://nanjing:8004/eureka/
+      beijing: http://beijing:8001/eureka/
+    region: huazhong
+    availability-zones:
+      huazhong: shanghai,nanjing,beijing
+

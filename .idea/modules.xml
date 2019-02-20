@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-customer-region-zone-ribbon-10001/spring-cloud-customer-region-zone-ribbon-10001.iml" filepath="$PROJECT_DIR$/spring-cloud-customer-region-zone-ribbon-10001/spring-cloud-customer-region-zone-ribbon-10001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-customer-region-zone-ribbon-10002/spring-cloud-customer-region-zone-ribbon-10002.iml" filepath="$PROJECT_DIR$/spring-cloud-customer-region-zone-ribbon-10002/spring-cloud-customer-region-zone-ribbon-10002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-erueka-server/spring-cloud-erueka-server-8001.iml" filepath="$PROJECT_DIR$/spring-cloud-erueka-server/spring-cloud-erueka-server-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-erueka-server-8002/spring-cloud-erueka-server-8002.iml" filepath="$PROJECT_DIR$/spring-cloud-erueka-server-8002/spring-cloud-erueka-server-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-erueka-server-8003/spring-cloud-erueka-server-8003.iml" filepath="$PROJECT_DIR$/spring-cloud-erueka-server-8003/spring-cloud-erueka-server-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8001/spring-cloud-erueka-server-region-zone-8001.iml" filepath="$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8001/spring-cloud-erueka-server-region-zone-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8002/spring-cloud-erueka-server-region-zone-8002.iml" filepath="$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8002/spring-cloud-erueka-server-region-zone-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8003/spring-cloud-erueka-server-region-zone-8003.iml" filepath="$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8003/spring-cloud-erueka-server-region-zone-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8004/spring-cloud-erueka-server-region-zone-8004.iml" filepath="$PROJECT_DIR$/spring-cloud-erueka-server-region-zone-8004/spring-cloud-erueka-server-region-zone-8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client-region-zone-01/spring-cloud-eureka-client-region-zone-01.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client-region-zone-01/spring-cloud-eureka-client-region-zone-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client-region-zone-02/spring-cloud-eureka-client-region-zone-02.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client-region-zone-02/spring-cloud-eureka-client-region-zone-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client-service01.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client-service01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client-service02/spring-cloud-eureka-client-service02.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client-service02/spring-cloud-eureka-client-service02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+eureka:
+  instance:
+    instance-id: spring-cloud-eureka-client-9002
+  client:
+    service-url:
+      defaultZone: http://peer2:1112/eureka/
+spring:
+  application:
+    name: eureka_client_service
+server:
+  port: 9002
