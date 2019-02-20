@@ -14,11 +14,13 @@ import java.util.List;
 @RestController
 @RequestMapping("/order")
 public class OrderController {
+
     @Autowired
     private RestTemplate restTemplate;
 
     @GetMapping("/api/v1/selectOrder")
     public List<OrderDTO> selectOrder(){
+        log.debug("测试开始了");
         return restTemplate.getForObject("http://operation/selectOrder", List.class);
     }
 }
