@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: productOperation
+server:
+  port: 30002
+eureka:
+  instance:
+    instance-id: spring-cloud-provide-product-30002
+    metadata-map:
+      zone: tianjin
+  client:
+    service-url:
+      beijing: http://beijing:8007/eureka/
+      tianjin: http://tianjin:8002/eureka/
+      shanghai: http://shanghai:8003/eureka/
+    region: huabei
+    availability-zones:
+      huabei: beijing,tianjin,shanghai
+
+

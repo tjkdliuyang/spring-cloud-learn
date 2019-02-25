@@ -16,6 +16,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client-service01.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client-service01.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client-service02/spring-cloud-eureka-client-service02.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client-service02/spring-cloud-eureka-client-service02.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provide-region-zone-ribbon-30001/spring-cloud-provide-region-zone-ribbon-30001.iml" filepath="$PROJECT_DIR$/spring-cloud-provide-region-zone-ribbon-30001/spring-cloud-provide-region-zone-ribbon-30001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-provide-region-zone-ribbon-30002/spring-cloud-provide-region-zone-ribbon-30002.iml" filepath="$PROJECT_DIR$/spring-cloud-provide-region-zone-ribbon-30002/spring-cloud-provide-region-zone-ribbon-30002.iml" />
     </modules>
   </component>
 </project>

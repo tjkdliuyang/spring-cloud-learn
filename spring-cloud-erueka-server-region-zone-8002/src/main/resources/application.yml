@@ -27,7 +27,7 @@ eureka:
     #注册中心的地址
     service-url:
       tianjin: http://tianjin:8002/eureka
-      beijing: http://beijing:8001/eureka
+      beijing: http://beijing:8007/eureka
       shanghai: http://shanghai:8003/eureka
       #defaultZone: http://peer2:1112/eureka
 

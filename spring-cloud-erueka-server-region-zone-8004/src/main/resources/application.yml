@@ -28,7 +28,7 @@ eureka:
     service-url:
       nanjing: http://nanjing:8004/eureka
       shanghai: http://shanghai:8003/eureka
-      beijing: http://beijing:8801/eureka
+      beijing: http://beijing:8807/eureka
       #defaultZone: http://peer2:1112/eureka
 
 

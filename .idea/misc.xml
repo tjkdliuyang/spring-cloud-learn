@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-eureka-client-region-zone-02/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-customer-region-zone-ribbon-10001/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-customer-region-zone-ribbon-10002/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provide-region-zone-ribbon-30001/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-provide-region-zone-ribbon-30002/pom.xml" />
       </list>
     </option>
   </component>

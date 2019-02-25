@@ -1,6 +1,6 @@
 #server端口号
 server:
-  port: 8001
+  port: 8007
 #配置的应用名称
 spring:
   application:
@@ -28,7 +28,7 @@ eureka:
       huabei: beijing,tianjin,nanjing
     #注册中心的地址
     service-url:
-      beijing: http://beijing:8001/eureka
+      beijing: http://beijing:8007/eureka
       tianjin: http://tianjin:8002/eureka
       nanjing: http://nanjing:8004/eureka
       #defaultZone: http://peer2:1112/eureka

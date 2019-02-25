@@ -1,20 +1,20 @@
 spring:
   application:
-    name: order
+    name: productOperation
 server:
-  port: 10002
+  port: 30001
 eureka:
   instance:
-    instance-id: spring-cloud-eureka-customer-order-10002
+    instance-id: spring-cloud-provide-product-30001
     metadata-map:
-      zone: beijing
+      zone: shanghai
   client:
     service-url:
-      beijing: http://beijing:8007/eureka/
       shanghai: http://shanghai:8003/eureka/
       nanjing: http://nanjing:8004/eureka/
+      beijing: http://beijing:8007/eureka/
     region: huazhong
     availability-zones:
-      huazhong: beijing,shanghai,nanjing
+      huazhong: shanghai,nanjing,beijing
 
 
